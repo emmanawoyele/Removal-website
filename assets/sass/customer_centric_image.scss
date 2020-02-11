@@ -1,0 +1,170 @@
+.Customer-centric{
+    padding-top:100px;
+    padding-bottom:80px;
+    h4{
+        color:#f9c649;
+        font-style: normal;
+
+        text-transform: none;
+        
+        letter-spacing: -0.5px;
+        
+        line-height: 1.5em;
+        
+        font-size: 1.143em;
+        
+        font-weight: 600;
+        padding-bottom: 10px;
+    }
+    h2{
+        color:#5c524b;
+        font-size:3.586em;
+        font-weight:700;
+        margin-top:10px;
+        letter-spacing: -1.8px;
+    
+        
+    }
+    .col-md-3{
+        display: grid;
+        grid-template-columns: 300px 300px 400px;
+        grid-gap: 26px;
+
+        .Parking-parking{
+            padding-top: 25px;
+            .fa-box,.fa-warehouse,.fa-box-open,.fa-house-damage{
+                font-size: 3.5em;
+             color:white;
+             border-color:#f9c649;
+             background: #f9c649;
+              border-radius: 50%;
+              width: 1.6em;
+              height: 1.6em;
+              text-align: center;
+               line-height: 1.6em;
+            }
+            
+                 a{
+
+                    font-family: Poppins,sans-serif;
+                    font-size: 1.571em;
+                    font-weight: 800;
+                    font-style: normal;
+                    line-height: 1.36;
+                   text-decoration: none;
+                    text-transform: none;
+                      letter-spacing: -0.66px;
+                       color:#5c524b;
+                       transition: all 3 s ease;
+                       padding-left:17px
+                 } 
+
+                 a:hover{
+                     color:#f9c649;
+                 }
+              
+            p{
+                margin-top:12px;
+                line-height: 1.4;
+                color:#827a70;
+                font-weight: 400;
+                font-size:16px;
+                font-family: Roboto Slab, serif;
+            }
+           .parking-storage{padding-top:48px;} 
+
+        }
+    }
+
+    .Customer-centric-image{
+        background-image: url("http://moveme.ancorathemes.com/wp-content/uploads/2017/03/image-39.jpg");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        top: -86px;
+
+        .text-inner-image{
+            margin-top:86px;
+            text-align: center;
+            line-height: 1.8;
+            h6{
+                color:rgb(249, 198, 73);
+                font-size: 16px;
+                font-weight: bold;
+
+            }
+            span{
+               font-size: 40.2px;
+               color:#ffffff;
+               font-weight:700;
+            }
+            a{
+                display:block;
+                font-size: 16px;
+
+                padding-top: 17px;
+                
+                padding-bottom: 17px;
+                
+                font-weight: 600;
+                
+                margin: 0 auto;
+                
+                text-decoration: none;
+                
+                font-weight: 600;
+                
+                color:
+                #5c524b;
+                
+                text-align: center;
+                
+                background-color:
+                #f8c654;
+                
+                border-radius: 50px;
+                
+                text-transform: uppercase;
+                width:75%;
+            }
+        }
+    }
+    .Customer-centric-image:hover{
+        background-color:rgba(0,0,0,0.5);
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 960px){
+    .Customer-centric .col-md-3{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 26px;
+    }
+.Customer-centric .Customer-centric-image {
+    position: relative;
+    top:15px;
+    
+    width:70vh;
+    a{
+        width:49%;
+    }
+}
+}
+
+
+@media only screen and (max-width:767px){
+    .Customer-centric .col-md-3 .Parking-parking p{
+        width: 286px;
+    }
+    .Customer-centric .Customer-centric-image {
+
+        position: relative;
+        top: 15px;
+        display: block;
+        width: 100%;
+    
+    }
+}

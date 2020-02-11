@@ -1,0 +1,62 @@
+#Moving-wrapper{
+    background-color: rgb(171, 148, 119);
+    position: relative;
+    top:-30px;
+    height: 350px;
+    .inner-wrapper{
+        margin-top:63px;
+
+      h6{
+        color:#f9c649;
+        font-style: normal;
+
+        text-transform: none;
+        
+        letter-spacing: -0.5px;
+        
+        line-height: 1.5em;
+        
+        font-size: 1.143em;
+        
+        font-weight: 600;
+      }
+      h1{
+          color:#ffffff;
+          font-weight: 900;
+          font-size: 3.586em;
+          margin-top:10px;
+      }
+      .Moving-icons-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        .icons{
+            margin-top: 64px;
+            position: relative;
+            .our-icons{
+                font-size: 55px;
+                line-height: 1.1em;
+                color:#f9c649;
+                padding-right:10px;
+            }
+            span{padding-left:10px; font-size:16px; color:#ffffff;font-weight:600;position: absolute;top: 33%;}
+           .fa-arrow-right{color:#d7c0a2;font-size:12px;margin-left:10px;};
+
+        }
+      }
+
+
+    }
+
+}
+
+//media for phone
+@media only screen and (max-width:767px){
+  #Moving-wrapper{
+    height:0px;
+
+  }
+  #Moving-wrapper .inner-wrapper .Moving-icons-container{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

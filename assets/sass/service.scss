@@ -1,0 +1,641 @@
+
+    #service_types{
+      padding-bottom: 100px;
+        .service-title{
+            h1{
+                color: #f9c649;
+            padding:10px;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+            font-weight: 400;
+            position: relative;
+        }
+     p{
+    color: #5c524b;
+    font-size:40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+
+     }
+
+        }
+        .images-service{
+            
+        display:grid;
+        grid-template-columns: 1fr  1fr 1fr;
+        height:289.7px;
+        width:100%;
+        grid-gap: 20px;
+        position: relative;
+       
+        //start Box 1//
+        
+        .box-container{
+            
+            background-color:transparent;
+            perspective: 1000px;
+            position: relative;
+            width: 100%;
+            height: 100%;
+          
+            .box-inner{
+                position: relative;
+              width: 100%;
+               height: 100%;
+              text-align: center;
+              transition: transform 0.8s;
+              -webkit-transition: transform 0.8s;
+              -moz-transition:transform 0.8s ;
+              -moz-transform-style:preserve-3d;
+              transform-style: preserve-3d;
+              -webkit-transform-style: preserve-3d;
+
+              //Start of front flip 1
+                .service1{
+        
+                    background-image:url("http://moveme.ancorathemes.com/wp-content/uploads/2017/04/image-19.jpg");
+                    background-color: #333;
+                    background-size: cover ;
+                   background-position: center;
+                  background-repeat: no-repeat;
+                  width:100%;
+                  height:100%;
+                  top:0;
+                  left:0;
+                  z-index: 2;
+                  
+                backface-visibility: hidden;
+                //transform-origin: 50% 50%;
+                position: absolute;
+      .inner-text{
+          position: absolute;
+        bottom:21%;
+         left:20%;
+        z-index: 2;
+        transform: none;
+        text-align: left;
+          h5{
+            font-size:28px;
+            font-weight: 700;
+           line-height: 1.2;
+            margin-bottom:10px;
+            font-family: Poppins, sans-serif;
+                       
+                       a{
+                        text-decoration: none;
+                        color:#ffffff;
+                       }
+                    }
+
+                    .inner-text-price{
+                       color:#f9c649;
+                       font-size:16px;
+                       font-weight: 600;
+                       font-family: Poppins, sans-serif;
+                    
+                    }
+                 } 
+                
+            }
+            //End of front flip 1
+
+            //start of back flip 1
+
+            .service1-flip{
+               
+                background-image:url("http://moveme.ancorathemes.com/wp-content/uploads/2017/04/image-19.jpg");
+                   //background-color: #333;
+                    background-size: cover ;
+                   background-position: center;
+                  background-repeat: no-repeat;
+                  width:100%;
+                  height:100%;
+                  position: absolute;
+                  top:0;
+                  left:0;
+                backface-visibility: hidden;
+                transform: rotateY(180deg);
+                -webkit-transform:rotateY(180deg);
+                -moz-transform:rotateY(180deg) ;
+
+                .back-text{
+             
+                  z-index: 2;
+                  position: absolute;
+                  height: 73vh;
+                  padding-left: 10px;
+                  
+                 h5{
+                    font-size:28px;
+                    font-weight: 700;
+                    line-height: 1.2;
+                    font-family: Poppins, sans-serif;
+                    line-height: 2.4;
+                    padding-top: 47px;;
+                    a{
+                        text-decoration: none;
+                        color:#ffffff;
+                    }
+                 }
+                 span{
+                    color:#f9c649;
+                    font-size:16px;
+                    font-weight: 600;
+                    font-family: Poppins, sans-serif;
+
+                 }
+               p{
+                font-size:18px;
+                font-weight: 400;
+                line-height: 1.2;
+                font-family: Poppins, sans-serif;  
+                color:#ffffff;
+                margin-bottom: 31px;
+               } 
+               .info-btn{
+                   margin-top:10px;
+                text-decoration: none;
+                color:#ffffff;
+                background-color: #f9c649;
+                padding-top:14px;
+                padding-bottom: 14px;
+                padding-left: 38.5px;
+                padding-right: 38.5px;
+                text-align:center;
+                border-radius: 30px;
+            }
+            } 
+           
+            }
+            //End of back flip
+            
+           
+            
+        }
+
+       
+        .service1::after{
+            background-color: rgba(0,0,0,0.5);
+            content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+        }
+            
+      .service1-flip::after{
+    background-color: rgba(29,29,29,0.5);
+   
+    content: "";
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: 2;
+
+    
+         }
+
+
+    }
+   //end of Box1//
+
+//Start Box 2//
+ 
+   .box-container{
+            
+    background-color:transparent;
+    perspective: 1000px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+  
+    .box-inner{
+        position: relative;
+      width: 100%;
+       height: 100%;
+      text-align: center;
+      transition: transform 0.8s;
+      -webkit-transition: transform 0.8s;
+      -moz-transition:transform 0.8s ;
+      -moz-transform-style:preserve-3d;
+      transform-style: preserve-3d;
+      -webkit-transform-style: preserve-3d;
+
+      //Start of front flip 1
+        .service2{
+
+            background-image:url("http://moveme.ancorathemes.com/wp-content/uploads/2017/04/image-28.jpg");
+            background-color: #333;
+            background-size: cover ;
+           background-position: center;
+          background-repeat: no-repeat;
+          width:100%;
+          height:100%;
+          top:0;
+          left:0;
+          z-index: 2;
+          
+        backface-visibility: hidden;
+        //transform-origin: 50% 50%;
+        position: absolute;
+.inner-text{
+  position: absolute;
+bottom:21%;
+ left:20%;
+z-index: 2;
+transform: none;
+text-align: left;
+  h5{
+    font-size:28px;
+    font-weight: 700;
+   line-height: 1.2;
+    margin-bottom:10px;
+    font-family: Poppins, sans-serif;
+               
+               a{
+                text-decoration: none;
+                color:#ffffff;
+               }
+            }
+
+            .inner-text-price{
+               color:#f9c649;
+               font-size:16px;
+               font-weight: 600;
+               font-family: Poppins, sans-serif;
+            
+            }
+         } 
+        
+    }
+    //End of front flip 1
+
+    //start of back flip 1
+
+    .service2-flip{
+       
+        background-image:url("http://moveme.ancorathemes.com/wp-content/uploads/2017/04/image-28.jpg");
+           //background-color: #333;
+            background-size: cover ;
+           background-position: center;
+          background-repeat: no-repeat;
+          width:100%;
+          height:100%;
+          position: absolute;
+          top:0;
+          left:0;
+        backface-visibility: hidden;
+        transform: rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -moz-transform:rotateY(180deg) ;
+
+        .back-text{
+     
+          z-index: 2;
+          position: absolute;
+          height: 73vh;
+          padding-left: 10px;
+          
+         h5{
+            font-size:28px;
+            font-weight: 700;
+            line-height: 1.2;
+            font-family: Poppins, sans-serif;
+            line-height: 2.4;
+            padding-top: 47px;;
+            a{
+                text-decoration: none;
+                color:#ffffff;
+            }
+         }
+         span{
+            color:#f9c649;
+            font-size:16px;
+            font-weight: 600;
+            font-family: Poppins, sans-serif;
+
+         }
+       p{
+        font-size:18px;
+        font-weight: 400;
+        line-height: 1.2;
+        font-family: Poppins, sans-serif;  
+        color:#ffffff;
+        margin-bottom: 31px;
+       } 
+       .info-btn{
+           margin-top:10px;
+        text-decoration: none;
+        color:#ffffff;
+        background-color: #f9c649;
+        padding-top:14px;
+        padding-bottom: 14px;
+        padding-left: 38.5px;
+        padding-right: 38.5px;
+        text-align:center;
+        border-radius: 30px;
+    }
+    } 
+   
+    }
+    //End of back flip
+    
+   
+    
+}
+
+
+.service2::after{
+    background-color: rgba(0,0,0,0.5);
+    content: "";
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: 1;
+}
+    
+.service2-flip::after{
+background-color: rgba(29,29,29,0.5);
+
+content: "";
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: 2;
+
+
+ }
+
+
+}
+//end of Box2//
+
+
+//Start Box 3//
+ 
+.box-container{
+            
+  background-color:transparent;
+  perspective: 1000px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  .box-inner{
+      position: relative;
+    width: 100%;
+     height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    -webkit-transition: transform 0.8s;
+    -moz-transition:transform 0.8s ;
+    -moz-transform-style:preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+
+    //Start of front flip 1
+      .service3{
+
+          background-image:url("http://moveme.ancorathemes.com/wp-content/uploads/2017/04/image-27.jpg");
+          background-color: #333;
+          background-size: cover ;
+         background-position: center;
+        background-repeat: no-repeat;
+        width:100%;
+        height:100%;
+        top:0;
+        left:0;
+        z-index: 2;
+        
+      backface-visibility: hidden;
+      //transform-origin: 50% 50%;
+      position: absolute;
+.inner-text{
+position: absolute;
+bottom:21%;
+left:20%;
+z-index: 2;
+transform: none;
+text-align: left;
+h5{
+  font-size:28px;
+  font-weight: 700;
+ line-height: 1.2;
+  margin-bottom:10px;
+  font-family: Poppins, sans-serif;
+             
+             a{
+              text-decoration: none;
+              color:#ffffff;
+             }
+          }
+
+          .inner-text-price{
+             color:#f9c649;
+             font-size:16px;
+             font-weight: 600;
+             font-family: Poppins, sans-serif;
+          
+          }
+       } 
+      
+  }
+  //End of front flip 1
+
+  //start of back flip 1
+
+  .service3-flip{
+     
+      background-image:url("http://moveme.ancorathemes.com/wp-content/uploads/2017/04/image-27.jpg");
+         //background-color: #333;
+          background-size: cover ;
+         background-position: center;
+        background-repeat: no-repeat;
+        width:100%;
+        height:100%;
+        position: absolute;
+        top:0;
+        left:0;
+      backface-visibility: hidden;
+      transform: rotateY(180deg);
+      -webkit-transform:rotateY(180deg);
+      -moz-transform:rotateY(180deg) ;
+
+      .back-text{
+   
+        z-index: 2;
+        position: absolute;
+        height: 73vh;
+        padding-left: 10px;
+        
+       h5{
+          font-size:28px;
+          font-weight: 700;
+          line-height: 1.2;
+          font-family: Poppins, sans-serif;
+          line-height: 2.4;
+          padding-top: 47px;;
+          a{
+              text-decoration: none;
+              color:#ffffff;
+          }
+       }
+       .inner-text.price{
+          color:#f9c649;
+          font-size:16px;
+          font-weight: 600;
+          font-family: Poppins, sans-serif;
+
+       }
+     p{
+      font-size:18px;
+      font-weight: 400;
+      line-height: 1.2;
+      font-family: Poppins, sans-serif;  
+      color:#ffffff;
+      margin-bottom: 31px;
+     } 
+     .info-btn{
+         margin-top:10px;
+      text-decoration: none;
+      color:#ffffff;
+      background-color: #f9c649;
+      padding-top:14px;
+      padding-bottom: 14px;
+      padding-left: 38.5px;
+      padding-right: 38.5px;
+      text-align:center;
+      border-radius: 30px;
+  }
+  } 
+ 
+  }
+  //End of back flip
+  
+ 
+  
+}
+
+
+.service3::after{
+  background-color: rgba(0,0,0,0.5);
+  content: "";
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: 1;
+}
+  
+.service3-flip::after{
+background-color: rgba(29,29,29,0.5);
+
+content: "";
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: 2;
+
+
+}
+
+
+}
+//end of Box3//
+
+    
+   .box-container:hover .box-inner{
+     transform:rotateY(180deg);
+      -webkit-transform:rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+    }
+
+  }
+  .btn-moving{
+    margin-top:30px;
+        display:block;
+        text-decoration: none;
+    
+     
+        width: 25%;
+        a{
+          font-size:16px;
+          padding-top:17px;
+          padding-bottom:17px;
+          font-weight: 600;
+          margin:0 auto;
+          text-decoration: none;
+          display: block;
+          font-weight: 600;
+          color:rgb(92, 82, 75);
+          text-align: center;
+          background-color: rgb(248, 198, 84);
+          border-radius: 50px;
+          text-transform: uppercase;
+
+        }
+  }
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+  #container-wrapper {
+    margin-left: 19px;
+    margin-right:0;
+   
+}
+  #service_types .btn-moving {
+    
+    width: 41%;
+  
+  }
+  #Moving-wrapper .inner-wrapper .Moving-icons-container {
+    height: 138px;
+
+}
+#Moving-wrapper .inner-wrapper .Moving-icons-container .icons .our-icons {
+  width: 58px;
+}
+
+}
+
+
+//Media for phone
+@media only screen and (max-width:767px){
+  #service_types .images-service{
+    display: grid;
+    grid-template-columns: auto;
+height: 600px;
+  }
+  #service_types .btn-moving {
+
+    width: 77%;
+
+}
+}

@@ -1,0 +1,44 @@
+.toolbar{
+    background:red;
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    height:56px;
+
+    .toolbar_navigation{
+        display: flex;
+        align-items:center;
+        height:100%;
+        padding:0 1rem;
+
+    }
+    .toolbar_logo{
+        color:white;
+        font-size:1.6rem;
+        margin-left: 1rem;
+    }
+    .spacer{
+        flex:1;
+    }
+.toolbar_navigation_items {
+    
+   ul{
+    display:flex;
+    padding:0;
+    margin:0;
+    li{
+padding:0 5px 0 5px;
+a{
+ 
+    color:white;
+}
+    }
+ 
+   }
+    
+
+}
+
+
+}
